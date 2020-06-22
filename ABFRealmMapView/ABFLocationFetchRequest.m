@@ -173,20 +173,7 @@ realmConfiguration = _realmConfiguration;
 
 - (RLMRealm *)realm
 {
-    if ([NSThread isMainThread] &&
-        !self.realmForMainThread) {
-        
-        self.realmForMainThread = [RLMRealm realmWithConfiguration:self.realmConfiguration
-                                                             error:nil];
-    }
-    
-    if ([NSThread isMainThread]) {
-        
-        return self.realmForMainThread;
-    }
-    
-    return [RLMRealm realmWithConfiguration:self.realmConfiguration
-                                      error:nil];
+    return [RLMRealm defaultRealm];
 }
 
 #pragma mark - Hash
