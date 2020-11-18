@@ -210,6 +210,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = F9FFE4AC1E0F803100A739BC;
@@ -376,7 +377,7 @@
 				);
 				INFOPLIST_FILE = ABFRealmMapView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = ABFRealmMapView/ABFRealmMapView.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Roobiq.ABFRealmMapView;
@@ -401,7 +402,7 @@
 				);
 				INFOPLIST_FILE = ABFRealmMapView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = ABFRealmMapView/ABFRealmMapView.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Roobiq.ABFRealmMapView;
